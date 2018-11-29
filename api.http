@@ -1,3 +1,12 @@
 # Use Visual Studio Code REST Client to run these requests
 # https://marketplace.visualstudio.com/items?itemName=humao.rest-client
-GET http://localhost:4000/ 
+@id = 5babfe33759ca9577c32097c
+
+# Get user
+GET http://localhost:8080/api HTTP/1.1
+
+###
+
+GET http://localhost:8080/api/{{id}} HTTP/1.1
+
+###
