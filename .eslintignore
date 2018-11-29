@@ -1,2 +1,5 @@
 # Dist 
 dist/
+
+# Ignore webpack config file
+webpack.config.js
