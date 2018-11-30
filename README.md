@@ -12,10 +12,16 @@ Believe or not, you need just this amazing tool (Docker).
 Maybe, you are wondering "What I need to run  this api without Docker". Let me say that
 latest version of NodeJs are required along with latest version of npm. 
 
+### Clone
+
+```bash
+    git clone https://github.com/joaquinicolas/full-stack-api-babel.git
+```
 ### Running the api
 
 To run the api without Docker follow this steps: 
 ```bash
+    cd full-stack-api-babel
     npm run build
     npm run serve
 ```
