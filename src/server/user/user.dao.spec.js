@@ -8,7 +8,6 @@ import {
 import 'babel-polyfill';
 
 describe('User dao', () => {
-
   const id = '5babfe331cb8c7025a048c74';
   it('should get all data', async () => {
     const data = await getAll();
